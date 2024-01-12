@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Log in </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <script src='main.js'></script>
+    <style>
+        body{
+            margin: auto;
+            padding: auto;
+            background-color:thistle;
+            align-items: center;
+        }
+        div{
+            width: 100%;
+            text-align: center;
+            /* border: 1px solid black; */
+            border-radius: 55px;
+        }
+        h1{
+            color: brown;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+            font-size: 55px;
+        }
+        input[type="text"],[type="password"]
+        {
+            width: 350px;
+            height: 30px;
+
+        }
+        input[type="submit"]
+        {
+            width:100px;
+            height: 30px;
+            background-color: slateblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            font-size: 20px;
+            border: none;
+
+        }
+        input[type="submit"]:hover
+        {
+            width:100px;
+            height: 30px;
+            background-color:sienna;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            font-size: 20px;
+            border: none;
+            
+        }
+        ::placeholder{
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            color:crimson;
+        }
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-style: italic;
+            text-decoration: none;
+        }
+        a:hover{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-style: italic;
+            text-decoration: none;
+            color: red;
+        }
+        .banner{
+            border: 0px;
+            color:slateblue;
+
+        }
+        .header{
+            /* margin-top: -90px; */
+            font-size: 50px;
+            font-family:sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        
+        <div class="header">Jay somnath Travles Pvt Ltd</div>
+        <hr>
+    </div>
+    <br>
+    <br>
+    <div>
+    <h1>Forget Password</h1>
+    <form action="#" method="post">
+        <input type="password" name="oldpass" placeholder="Old Password">
+        <br><br>
+        <input type="password" name="newpass" placeholder="New Password">   
+        <br><br>
+        <input type="password" name="confirmpass" placeholder="Confirm Password">   
+        <br><br>
+        <input type="submit" name="submit" value="Reset">
+        <br><br>
+    </form>
+    </div>
+</body>
+</html>
